@@ -184,7 +184,6 @@ class App:
             phauteur, pcouleur, self.NB_CUBES)
         self.inserer_dans_display_list(cube_tmp)
 
-
         self.CUBES.append(cube_tmp)
         # on active les options d'exportation, de sauvegarde et d'annulation
         self.deroul_fichier.entryconfigure(2, state="normal")
